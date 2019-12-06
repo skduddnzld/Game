@@ -52,10 +52,10 @@ public class RPS {
 			}
 //=========================END========================
 			if (p == 3) {
-				System.out.println("·¹µå ½Â!");
+				System.out.println("·¹µå ½Â!" + p);
 				return;
 			} else if (p == -3) {
-				System.out.println("ºí·ç ½Â!");
+				System.out.println("ºí·ç ½Â!" + p);
 				return;
 			}
 		}

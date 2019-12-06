@@ -1,11 +1,9 @@
 import java.util.Scanner;
-import java.util.Random;
 
 public class RockPaperScissors {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Random ran = new Random();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("-·ê ¼³¸í-");
 		System.out.println("p´Â Æ÷ÀÎÅÍ");
@@ -43,7 +41,7 @@ public class RockPaperScissors {
 			} else if (r == 2 && b == 3) {
 				System.out.println("b ½Â!");
 				p -= 1;
-			}	
+			}
 // ===================================================			
 			else {
 				System.out.println("ºñ±è");
